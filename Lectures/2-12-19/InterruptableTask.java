@@ -1,0 +1,1 @@
+public interface InterruptableTask extends Runnable {}

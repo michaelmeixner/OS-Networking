@@ -1,0 +1,15 @@
+File systems:
+    how files are stored
+    how to manage free space
+
+OS -> API -> file system A
+          -> file system B...
+
+ODBC = open database connectivity (open = open source)
+
+JDBC (Java database connectivity) is an API
+
+APIs make for an added layer of complexity and slower performance
+
+Fragmentation:
+    2 kinds

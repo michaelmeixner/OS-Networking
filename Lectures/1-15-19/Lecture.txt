@@ -1,0 +1,37 @@
+Operating Systems Stuff:
+
+If we were to design our own OS, where would we start? (Conceptually not with programming)
+    UI
+    Functionality
+    File system/networking/API/comm
+    Research
+
+But why are we making it?
+Is it an OS for a mobile device, computer, coffee maker, etc.?
+UI for coffee maker uses physical elements like buttons because they're cheap, reliable, and easy.
+
+What decisions would you have to make initially before designing a desktop UI?
+    Who is it for?
+    Is it single-user or multi-user?
+        Windows is single-user, linux, unix, and macOS are multi-user.
+    Single-user systems are simple and easy to implement, while muli-user systems are much more complex and difficult to implement.
+    Your target user determines if you should go with single or multi-user.
+
+What functions should it include?
+    API
+        application program interface
+        it is the list of functionality that the OS provides to the application
+        "what the application is allowed/able to do"
+    multi-process
+    run an application
+        allocate VRAM and sandbox, load into RAM, load dependencies, and execute
+        application needs to ask the OS to do things for it by checking the API
+    security
+    make directories
+    make files
+        to read a file: open, read some bytes, close
+        file systems provide their own API to the OS
+        file system is not part of the OS but provides an API to the OS
+        file system is, however, stored in two places; the system is on the drive and not the OS, but the part that lets the OS interpret the system is stored in the OS
+
+tangent: RAID = Redundant array of independent disks   

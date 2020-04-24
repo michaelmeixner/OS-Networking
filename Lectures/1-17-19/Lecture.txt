@@ -1,0 +1,3 @@
+It's more efficient to store data in binary than it is to store it in text because text data varies greatly in size due to the varying amounts of characters
+Binary values consistently use 4 integers, so they're consistently 4 bytes in size
+Binary is also faster and uses less storage because it's read directly into RAM

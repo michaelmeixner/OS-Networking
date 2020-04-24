@@ -1,0 +1,3 @@
+The one about the lights:
+Inlight is the programming system used
+Each led in the light has its own driver and these are connected with a cat5 cable

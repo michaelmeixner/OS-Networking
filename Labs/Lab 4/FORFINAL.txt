@@ -1,0 +1,6 @@
+Need to know:
+    ServerSockets
+    Sockets
+    UDP (datagram sockets & packets)
+    File I/O
+    ThreadPool (built-in)

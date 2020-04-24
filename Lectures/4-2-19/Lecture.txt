@@ -1,0 +1,23 @@
+http stuff:
+    client opens connection to server through port 80 (https) or 443 (http)
+    server receives connection and waits for request
+    client sends request
+    server responds to request
+    (repeat request and response as many times as necessary)
+
+types of requests by client:
+    2 main requests:
+        get - request any kind of static resource
+        post - send data to the web server that we don't want repeated
+            (I'm going to give you data, I want you to do things with this data, but I don't want you to repeat any of this)
+            i.e. email, money
+    other requests:
+        put - please write this file on the server for money
+        delete - delete things from the server
+
+Response codes:
+    info - 100s
+    OK - 200s
+    redirect - 300s
+    don't understand - 400s (404 = file not found; 403 = access forbidden)
+    derpy server errors - 500s (server is dying/crashing)

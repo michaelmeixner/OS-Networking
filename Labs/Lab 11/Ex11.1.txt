@@ -1,0 +1,32 @@
+Michael Meixner, Lab 11
+Chapter 11
+
+Exercise 1
+    Contiguous: 
+        a. there will be 100 IO operations (move all blocks up one)
+        b. 50
+        c. 1
+        d. 100
+        e. 50
+        f. 1
+
+    Linked:
+        a. there will be 2 IO operations (move start character pointer to front of new block and pointer from end of new block to old start block)
+        b. 2
+        c. 2
+        d. 2 (shift start char from old start to new start)
+        e. 2
+        f. 2
+
+    Indexed:
+        a. there will be 2 IO operations (start character pointers and new block pointers)
+        b. 2
+        c. 2
+        d. 2
+        e. 2
+        f. 1
+
+Excercise 10
+    Contiguous: Good for end operations, not as good for others because you have to iterate through every element to get to what you need
+    Linked: Good for single-linked lists, but slower as the linking increases
+    Indexed: Generally very efficient, as the pointers of any degree of linking can be changed in one step. More complicated as the layer of indexing increases

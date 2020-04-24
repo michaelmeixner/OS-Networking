@@ -1,0 +1,91 @@
+2018-01-24 00:40:53,875 [1] INFO  - WPA - Logger has been initialized successfully.
+2018-01-24 00:40:53,886 [1] INFO  - WPA - Print temp file information object  has been initialized successfully.
+2018-01-24 00:40:53,886 [1] INFO  - WPA - Google analytics object has been initialized successfully.
+2018-01-24 00:40:53,886 [1] INFO  - WPA - Repair SQLite database object has been initialized successfully.
+2018-01-24 00:40:53,886 [1] INFO  - WPA - Objects initialization has been completed successfully.
+2018-01-24 00:40:53,887 [1] INFO  - WPA - Called the WPA App without any print job argument.
+2018-01-24 00:40:53,888 [1] INFO  - WPA - Current App Session properties initialization process has been started.
+2018-01-24 00:40:53,892 [1] INFO  - WPA - Current App Session properties initialization process has been completed for default settings.
+2018-01-24 00:40:53,892 [1] INFO  - WPA - Current App Session properties initialization process has been completed for Common database path and path is - [ C:\\Wepa\\bin\\Settings.xml]
+2018-01-24 00:40:53,892 [1] INFO  - WPA - Current App Session properties initialization process has been completed for user database path and path is - [ C:\Users\9mich\AppData\Roaming\Wepa\wepaprintapp.db]
+2018-01-24 00:40:53,892 [1] INFO  - WPA - Current App Session properties initialization process has been completed successfully.
+2018-01-24 00:40:53,895 [1] INFO  - WPA - PreserveUserConfiguration method has been started to analyse the settings file.
+2018-01-24 00:40:53,895 [1] INFO  - WPA - Common db method has been started to analyse the db file.
+2018-01-24 00:40:53,900 [1] INFO  - WPA - Common db method has been completed successfully to analyse the db file.
+2018-01-24 00:40:53,901 [1] INFO  - WPA - validateUserDatabase - User specific db method has been started to analyse the db file.
+2018-01-24 00:40:53,901 [1] INFO  - WPA - validateUserDatabase - User specific database location is found in user's application data folder - [C:\Users\9mich\AppData\Roaming\Wepa\] 
+2018-01-24 00:40:53,901 [1] INFO  - WPA - validateUserDatabase - User specific database is not found in user's application data folder - [C:\Users\9mich\AppData\Roaming\Wepa\wepaprintapp.db] 
+2018-01-24 00:40:53,925 [1] INFO  - WPA - InitUserDBStructure process has been started to create a new database/table at the location -[ C:\Users\9mich\AppData\Roaming\Wepa\wepaprintapp.db]
+2018-01-24 00:40:53,951 [1] INFO  - WPA - _InitUserDBStructure process - Common database & connection has been created successfully.
+2018-01-24 00:40:53,953 [1] INFO  - WPA - _InitUserDBStructure process - Common database - 'FileDetail' table creation process has been started.
+2018-01-24 00:40:53,968 [1] INFO  - WPA - _InitUserDBStructure process - Common database - 'FileDetail' table creation process has been completed successfully.
+2018-01-24 00:40:53,968 [1] INFO  - WPA - _InitUserDBStructure process - Common database - 'UserDetail' table creation process has been started.
+2018-01-24 00:40:53,975 [1] INFO  - WPA - _InitUserDBStructure process - Common database - 'UserDetail' table creation process has been completed successfully.
+2018-01-24 00:40:53,975 [1] INFO  - WPA - _InitUserDBStructure process - Common database - 'FileTracking' table creation process has been started.
+2018-01-24 00:40:53,983 [1] INFO  - WPA - _InitUserDBStructure process - Common database - 'FileTracking' table creation process has been completed successfully.
+2018-01-24 00:40:53,983 [1] INFO  - WPA - _InitUserDBStructure process - Common database - 'Settings' table creation process has been started.
+2018-01-24 00:40:53,990 [1] INFO  - WPA - _InitUserDBStructure process - Common database - 'Settings' table creation process has been completed successfully.
+2018-01-24 00:40:53,990 [1] INFO  - WPA - _InitUserDBStructure process - Common database - 'Settings' table default values entry process has been started.
+2018-01-24 00:40:53,998 [1] INFO  - WPA - _InitUserDBStructure process - Common database - 'Settings' table default values entry process has been completed successfully.
+2018-01-24 00:40:54,003 [1] INFO  - WPA - _InitUserDBStructure process has been completed to create a new database/table at the location -[ C:\Users\9mich\AppData\Roaming\Wepa\wepaprintapp.db]
+2018-01-24 00:40:54,003 [1] INFO  - WPA - validateUserDatabase - User specific db method has been completed successfully to analyse the db file.
+2018-01-24 00:40:54,003 [1] INFO  - WPA - printJobEntryProcess - Print job entry method starts.
+2018-01-24 00:40:54,004 [1] INFO  - WPA - printJobEntryProcess - Print job entry method completed successfully.
+2018-01-24 00:40:54,017 [1] INFO  - WPA - removeUnwantedShortcuts method has been started.
+2018-01-24 00:40:54,280 [1] INFO  - Login Type - Non AD
+2018-01-24 00:40:54,280 [1] INFO  - WPA - removeUnwantedShortcuts method has been completed successfully.
+2018-01-24 00:40:54,280 [1] INFO  - WPA - moveInstallationLogFile moving installation file process starts.
+2018-01-24 00:40:54,280 [1] INFO  - WPA - moveInstallationLogFile - Finding installation file location process starts.
+2018-01-24 00:40:54,280 [1] INFO  - WPA - moveInstallationLogFile - Finding installation file location process completed successfully. Location - [ C:\Users\9mich\AppData\Local\Temp\MSI51b5c.LOG ]
+2018-01-24 00:40:54,280 [1] INFO  - WPA - Started to create the User specific database connection.
+2018-01-24 00:40:54,281 [1] INFO  - WPA - User specific database connection created successfully.
+2018-01-24 00:40:54,302 [1] INFO  - WPA - Installation log file moved to application path successfully.
+2018-01-24 00:40:54,302 [1] INFO  - WPA - moveInstallationLogFile moving installation file process completed successfully.
+2018-01-24 00:40:54,303 [1] INFO  - WPA - clearPrintListFromUserDB - Clearing the print file from db method starts.
+2018-01-24 00:40:54,303 [1] INFO  - WPA - Started to create the User specific database connection.
+2018-01-24 00:40:54,303 [1] INFO  - WPA - User specific database connection created successfully.
+2018-01-24 00:40:54,304 [1] INFO  - WPA - clearPrintListFromUserDB - Clearing the print file from db method completed successfully.
+2018-01-24 00:40:54,304 [1] INFO  - WPA - validatePrintJob - Validating print file method starts.
+2018-01-24 00:40:54,304 [1] INFO  - WPA - Print file path:
+2018-01-24 00:40:54,304 [1] INFO  - WPA - No Print file found.
+2018-01-24 00:40:54,304 [1] INFO  - WPA - validatePrintJob - Validating print file method completed successfully.
+2018-01-24 00:40:54,306 [1] INFO  - WPA - appStartupWorkFlow - Application workflow method started.
+2018-01-24 00:40:55,228 [1] INFO  - WPA - Application startup success. First time school registration page opened.
+2018-01-24 00:40:55,331 [1] INFO  - WPA - appStartupWorkFlow - Application workflow method completed successfully.
+2018-01-24 00:41:07,772 [1] INFO  - WPA - Logger has been initialized successfully.
+2018-01-24 00:41:07,848 [1] INFO  - WPA - WEPA Infrastructure Configuration has been initialized successfully.
+2018-01-24 00:41:07,852 [1] INFO  - WPA - Remote file manager has been initialized successfully.
+2018-01-24 00:41:08,263 [1] INFO  - WPA - Printapp web service manager has been initialized successfully.
+2018-01-24 00:41:08,263 [1] INFO  - WPA - User information object has been initialized successfully.
+2018-01-24 00:41:08,263 [1] INFO  - WPA - Print temp file information object  has been initialized successfully.
+2018-01-24 00:41:08,263 [1] INFO  - WPA - SFTP object  has been initialized successfully.
+2018-01-24 00:41:08,263 [1] INFO  - WPA - Repair SQLite database object has been initialized successfully.
+2018-01-24 00:41:08,263 [1] INFO  - WPA - Printapp version - [2018.1.2.0] has been initialized successfully to show on WPA screens.
+2018-01-24 00:41:08,660 [1] INFO  - PrintAppClient Application Start Time - 1/24/2018 12:41:08 AM
+2018-01-24 00:41:08,662 [1] INFO  - PrintAppClient Application Version - 2018.1.2.0
+2018-01-24 00:41:08,663 [1] INFO  - PrintAppClient FTOP WebService URL - https://ftopserver.wepanow.com/FTOP-WS/FtopWSService
+2018-01-24 00:41:08,663 [1] INFO  - PrintAppClient Print Server WebService URL - https://prod1-print.wepanow.com/ps/ftop2ps.php
+2018-01-24 00:41:23,626 [19] INFO  - WPA - Logger has been initialized successfully.
+2018-01-24 00:41:23,627 [19] INFO  - WPA - WEPA Infrastructure Configuration has been initialized successfully.
+2018-01-24 00:41:23,627 [19] INFO  - WPA - Remote file manager has been initialized successfully.
+2018-01-24 00:41:23,628 [19] INFO  - WPA - Printapp web service manager has been initialized successfully.
+2018-01-24 00:41:23,628 [19] INFO  - WPA - User information object has been initialized successfully.
+2018-01-24 00:41:23,628 [19] INFO  - WPA - Print temp file information object  has been initialized successfully.
+2018-01-24 00:41:23,628 [19] INFO  - WPA - SFTP object  has been initialized successfully.
+2018-01-24 00:41:23,628 [19] INFO  - WPA - Repair SQLite database object has been initialized successfully.
+2018-01-24 00:41:23,628 [19] INFO  - WPA - Printapp version - [2018.1.2.0] has been initialized successfully to show on WPA screens.
+2018-01-24 00:41:23,629 [19] INFO  - PrintAppClient Application Start Time - 1/24/2018 12:41:23 AM
+2018-01-24 00:41:23,629 [19] INFO  - PrintAppClient Application Version - 2018.1.2.0
+2018-01-24 00:41:23,629 [19] INFO  - PrintAppClient FTOP WebService URL - https://ftopserver.wepanow.com/FTOP-WS/FtopWSService
+2018-01-24 00:41:23,629 [19] INFO  - PrintAppClient Print Server WebService URL - https://prod1-print.wepanow.com/ps/ftop2ps.php
+2018-01-24 00:41:24,323 [19] INFO  - Authentication WebService call returned - FileId:30535983, wepa Code:523WYD, Print Server IP:prod1-print.wepanow.com, Valid:True
+2018-01-24 00:41:24,323 [19] INFO  - 
+
+User Logged in.
+2018-01-24 00:41:24,323 [19] INFO  - 
+
+Username:	meix9423@benedictine.edu
+2018-01-24 00:41:24,450 [19] INFO  - WPA - Encrypt - Encryption process starts.
+2018-01-24 00:41:24,454 [19] INFO  - WPA - Encrypt - Encryption process completed successfully.
+2018-01-24 00:41:24,454 [19] INFO  - WPA - Encrypt - Encryption process starts.
+2018-01-24 00:41:24,454 [19] INFO  - WPA - Encrypt - Encryption process completed successfully.

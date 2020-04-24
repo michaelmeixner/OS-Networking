@@ -1,0 +1,32 @@
+IP address:
+    a set of four hexadecimal numbers (each ranging from 0-FF) arranged as a dotted-quad number
+    each IP address on a network must be unique
+    DHCP servers are what devices get their IP addresses from and access the network through
+    Only way to access a network is to know its IP address
+
+    Loopback address: 127.0.0.1 (loop back, local host, home)
+
+Another part to IP addresses:
+    Port: a number assigned to anything wanting to use the network
+    the OS gives the thing a port by assigning it an integer (2 bytes)
+    port number comes after the IP address after a colon (#.#.#.#: #)
+    the first 1024 ports have pre-assigned uses, so the OS will give out a port number higher than that to a request
+    80 = http (web server port number)
+    443 = https (secure web server port number)
+    20, 21 = ftp (file transfer protocal)
+    port numbers tell the network card which applications packets go to when they're received
+    port numbers are stored by the OS itself
+
+    ports can be used to control usage on the network
+    dhcp server = port 67
+    dhcp client = port 68
+    can tell router to not allow access to specific port numbers
+    firewalls just filter port numbers based on what they are told to allow/disallow incoming packets from
+    outgoing packets are passed through firewalls
+
+    connection chain: 
+        first: DHCP server (we usually have a backup server in case one doesn't connect) gives you an IP address and a gateway address
+        next: ask OS for domain of network you want to connect to. If OS doesn't know, it asks the local DNS (which it gets from the DHCP)
+                if DNS doesn't know, asks ISP (internet service provider)
+                if ISP doesn't know, ask InterNIC
+        next: open connection from router to gateway

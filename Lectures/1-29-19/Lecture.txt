@@ -1,0 +1,11 @@
+Proxy server:
+    initially a way to manage network resources (which are very limited due to bandwidth)
+    Modem: "modulator/demodulator"
+        modem converted a digital signal to an analogue signal and vice-versa
+    Proxy servers cache pages that might be accessed multiple times on a network
+
+Process: an independent chain of execution
+    just a complete series of instructions that carries out some task
+    path of execution in a java program is just the beginning to end of main method
+    this is a separate and unique path of execution, so it's a process
+    

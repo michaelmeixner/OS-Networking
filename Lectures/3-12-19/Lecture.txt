@@ -1,0 +1,8 @@
+InetAddress: an object that represents an IP address
+InetAddress is a class, not an interface
+
+NetworkInterface class identifies network access
+
+getMTU method returns the maximum size of packet that some network device (interface) can handle
+
+multicasting is replicating a stream to send out to multiple users from one port

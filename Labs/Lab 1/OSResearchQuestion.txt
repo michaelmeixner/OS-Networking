@@ -1,0 +1,14 @@
+I did some minor research on the Haiku OS.
+
+One of the biggest strengths of this OS is that it is open-source under the MIT license and is constantly being updated.
+It also has no legacy which minimizes security issues, and the code was built from scratch, so it is most likely well written and well documented.
+
+Some weaknesses of the Haiku OS are as follows:
+The GUI, although functional and intuitive, is outdated and ugly in comparison to the major operating systems' GUIs.
+The OS does not have automatic updates.
+There is very little software available for opertion in comparison to Windows and Linux.
+Haiku only supports i386 architecture.
+
+To conclude, this OS is aimed at users rather than developers, but the GUI is not appealing to the average user and it doesn't
+include enough support at the moment to be worth choosing overWindows, Linux, Unix, or MacOS. Since it is open-source there might be 
+increased support added in the future that would make it a feasible option for users, developers, and companies, but not yet.

@@ -1,0 +1,4 @@
+Processes (continued):
+    time-slicing is different for multi-core processors than it is for single-core processes
+    you can dedicate a core to some task instead of running a task and then returning to the OS
+    

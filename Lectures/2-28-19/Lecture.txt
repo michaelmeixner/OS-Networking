@@ -1,0 +1,7 @@
+demand paging:
+    program says how much memory it needs and those sections of memory are then allocated.
+    demand paging knows how much a program needs, but only allocates sections as they're being used
+        java programs only load class into memory when it is called first time
+
+hard drives have RAM in them
+    

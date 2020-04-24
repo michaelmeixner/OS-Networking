@@ -1,0 +1,28 @@
+Networks:
+    "they're kinda funny things"
+    they're deceptively simple
+    a network is divided into layers
+    the OSI model is the most common style of network - consists of seven layers
+    Layers:
+        Top layer: application layer
+        Next layer down: transport layer (TCP/IP, UDP/IP) (Optional formatting protocals for private networks)
+            TCP: (transmission control protocal)
+                an established connection stays the same until the connection is closed and then established again
+                lots of communication about the data being sent
+                send/receive confirmations
+            UDP: (user datagram protocal)
+                each packet finds its own route to the destination
+                no guarantee that everything makes it
+                arrive out of order
+                no way to know each packet made it there
+                no direct connection to the server (connectionless)
+                uses a lot less bandwidth, no need to establish connection, potentially faster
+                good for small packets of data that are complete in themselves (i.e. text messages)
+                used for DNS (domain name service)
+                    InterNIC - company that manages/creates domain names
+        Next layer down: internet layer (IP - internet protocal) (an agreed-upon standard for formatting data so it can be accepted by many devices)
+        Bottom layer: physical path (i.e. massive wired connection of cell towers)
+
+    You have to go through lots of routers connected to each other to get to a server
+    TTL (time to live)
+        maximum of connections before a packet is thrown away is 255

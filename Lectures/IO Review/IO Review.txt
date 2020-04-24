@@ -1,0 +1,33 @@
+IO package is java.io
+
+Streams:
+    flow from source --> sink
+    source for communication is the originator of the data (where the data resides)
+    source puts the data into the stream and the data flows to the sink where the sink can remove it from the stream
+    the data cannot be put back into the stream once it has been removed because the sink cannot put anything into the stream
+    two-way communication requires two sources, streams, and sinks in opposite directions
+
+Devices:
+    Array (ArrayReader/ArrayWriter)
+    File (FileReader/FileWriter)
+    RandomAccessFile (takes files that have a known record format and can find/write portions of the file quickly and without disturbing the rest of the file)
+    StringReader/StringWriter
+
+Filters:
+    Buffer (writes to ram and reads it into the program while the program is processing it)
+    DataInputStream/DataOutputStream (reads/writes primitive java data types)
+    InputStreamReader/OutputStreamWriter
+    LineNumberReader (keeps track of line numbers)
+    Object (allows for object persistence; lets the objects remain after the program runs and ends)
+    Piped (basically a stream)
+    PrintStream and PrintWriter (format data for user consumption)
+    SequenceInputStream
+
+FileWriter (destructively opens a file to write to it)
+
+We can add functionality by nesting FileWriter within filters.
+
+PrintWriter w = new PrintWriter();
+new BufferedWriter(new FileWriter("myFile.txt"));
+
+Data, Object, Print, and StreamTokenizer are some of the most useful filters.

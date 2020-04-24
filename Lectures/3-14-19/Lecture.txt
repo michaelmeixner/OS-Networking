@@ -1,0 +1,2 @@
+Socket:a virtual connection between two endpoints (i.e. a server and a client/ two network machines)
+Server socket: the socket that the server creates that implements the method accept and waits for a connection from a client's socket
